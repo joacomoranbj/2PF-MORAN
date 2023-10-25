@@ -6,27 +6,27 @@
 <div class="mat-elevation-z8">
   <table mat-table [dataSource]="dataSource" matSort>
     <ng-container matColumnDef="id">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Numero ID</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>ID</th>
       <td mat-cell *matCellDef="let row">{{ row.id }}</td>
     </ng-container>
 
     <ng-container matColumnDef="name">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Nombre</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
       <td mat-cell *matCellDef="let row">{{ row.name }}</td>
     </ng-container>
 
     <ng-container matColumnDef="category">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Categoria</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Category</th>
       <td mat-cell *matCellDef="let row">{{ row.category }}</td>
     </ng-container>
 
     <ng-container matColumnDef="company">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Compañia</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Company</th>
       <td mat-cell *matCellDef="let row">{{ row.company }}</td>
     </ng-container>
 
     <ng-container matColumnDef="levelOfHappiness">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Nivel de conformismo</th>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Level Of Happiness</th>
       <td mat-cell *matCellDef="let row">{{ row.levelOfHappiness }}</td>
     </ng-container>
 
